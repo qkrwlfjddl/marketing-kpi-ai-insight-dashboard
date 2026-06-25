@@ -3,7 +3,7 @@
 GA4 BigQuery 데이터를 기반으로 이벤트별 마케팅 KPI를 자동 집계하고,  
 Vertex AI Gemini로 실행 액션 중심의 인사이트를 생성하는 마케팅 성과 분석 대시보드입니다.
 
-이 프로젝트는 단순 리포트가 아니라,  
+단순 이벤트 특성 리포트가 아니라,  
 **어떤 이벤트가 성과를 만들고 있는지, 어떤 이벤트를 개선해야 하는지, 다음 액션은 무엇인지**를 빠르게 판단하기 위해 구축했습니다.
 
 GA4 데이터 수집 → BigQuery KPI 집계 → 유저 군집 분석 → Vertex AI 인사이트 생성 → DATA Studio 시각화
@@ -13,7 +13,14 @@ GA4 데이터 수집 → BigQuery KPI 집계 → 유저 군집 분석 → Vertex
 ## Preview
 ![대시보드 대표 화면](docs/images/01-main-dashboard.png)
 
+- X축: 페이지 반응 또는 전환 관련 지표
+- Y축: 구매전환 또는 참여전환 지표
+- 버블 크기: 유입 또는 매출 규모
+- 색상: 이벤트 성과 유형 또는 추천 액션
+- 필터: 기간, 이벤트코드, 생성일자
+  
 ---
+
 ## 프로젝트 요약
 
 | 구분 | 내용 |
@@ -26,3 +33,21 @@ GA4 데이터 수집 → BigQuery KPI 집계 → 유저 군집 분석 → Vertex
 | AI 활용 | Vertex AI Gemini로 이벤트별 요약 및 실행 액션 자동 생성 |
 | 시각화 | Looker Studio에서 기간, 이벤트 코드, 생성일 기준 필터링 |
 | 자동화 | Cloud Run Jobs, Cloud Scheduler 기반 정기 실행 |
+
+---
+
+## 사용 기술
+
+| 구분 | 사용 기술 |
+|---|---|
+| 데이터 소스 | GA4 Export |
+| 데이터 웨어하우스 | BigQuery |
+| 데이터 처리 | BigQuery SQL |
+| AI 인사이트 생성 | Vertex AI Gemini |
+| 자동화 실행 | Cloud Run Jobs |
+| 스케줄링 | Cloud Scheduler |
+| 시각화 | Data Studio |
+| 컨테이너 | Docker, Artifact Registry |
+| 언어 | Python, SQL |
+
+---
