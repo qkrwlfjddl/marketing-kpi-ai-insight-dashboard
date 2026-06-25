@@ -1,4 +1,4 @@
-# Marketing KPI AI Insight Dashboard
+# 마케팅 KPI AI Insight 분석
 
 GA4 BigQuery 데이터를 기반으로 이벤트별 마케팅 KPI를 자동 집계하고,  
 Vertex AI Gemini로 실행 액션 중심의 인사이트를 생성하는 마케팅 성과 분석 대시보드입니다.
