@@ -208,7 +208,7 @@ GA4 이벤트 로그를 기반으로 유저의 행동을 세션 단위로 집계
 | 추천 액션 | 이벤트 성과 유형에 따른 개선 방향 확인 |
 | AI 인사이트 | Vertex AI가 생성한 이벤트별 요약과 실행 액션 확인 |
 
-
+<br>  
 <p>
   <img src="docs/images/event_group.png"  width="60%">
 </p>
