@@ -12,8 +12,12 @@ GA4 데이터 수집 → BigQuery KPI 집계 → 유저 군집 분석 → Vertex
 
 ## PREVIEW
 <p>
-  <img src="docs/images/이벤트01.png" alt="이벤트 대시보드" width="70%">
+  <img src="docs/images/singup_event.png" alt="이벤트 대시보드" width="100%">
 </p>
+<p>
+  <img src="docs/images/singup_insights.png" alt="이벤트 대시보드" width="100%">
+</p>
+
 
 - X축: 페이지 반응 또는 전환 관련 지표
 - Y축: 구매전환 또는 참여전환 지표
