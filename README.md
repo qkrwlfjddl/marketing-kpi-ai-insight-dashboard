@@ -14,17 +14,19 @@ GA4 데이터 수집 → BigQuery KPI 집계 → 유저 군집 분석 → Vertex
 <p>
   <img src="docs/images/signup_event.png" alt="이벤트 대시보드" width="100%">
 </p>
-
-- X축: UX 상호 작용 점수
-- Y축: 구매, 참여전환률
-- 버블 크기: 유입, 매출 규모
-- 색상: 이벤트 성과 유형 또는 추천 액션
-- 필터: 기간, 이벤트코드, 생성일자, 유입, 매출 규모
-- 
+<small>
+X축: UX 상호 작용 점수
+Y축: 구매, 참여전환률
+버블 크기: 유입, 매출 규모
+색상: 이벤트 성과 유형 또는 추천 액션
+필터: 기간, 이벤트코드, 생성일자, 유입, 매출 규모
+</small>
 <p>
   <img src="docs/images/signup_insights.png" alt="이벤트 대시보드" width="100%">
 </p>
+<small>
 VERTEX AI (Google Gemini 3.0 flash)의 이벤트 INSIGHT 도출  
+</small>
 ---
 
 ## 목차
