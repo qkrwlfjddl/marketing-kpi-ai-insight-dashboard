@@ -153,7 +153,7 @@ GA4 데이터 수집 → BigQuery KPI 집계 → 유저 군집 분석 → Vertex
 ### 3.1 유저 행동 및 군집 분석
 
 <p>
-  <img src="docs/images/user_group.png"  width="50%">
+  <img src="docs/images/user_group.png"  width="60%">
 </p>
 
 1. 유저 행동 분석
@@ -194,7 +194,7 @@ GA4 이벤트 로그를 기반으로 유저의 행동을 세션 단위로 집계
 ### 3.2 이벤트 성과 분석
 
 <p>
-  <img src="docs/images/event_group_DS.png"  width="50%">
+  <img src="docs/images/event_group_DS.png"  width="60%">
 </p>
 
 이벤트별 유입, 페이지 반응, 구매전환, 참여전환, 매출 성과를 한 화면에서 비교할 수 있도록 구성
@@ -210,7 +210,7 @@ GA4 이벤트 로그를 기반으로 유저의 행동을 세션 단위로 집계
 
 
 <p>
-  <img src="docs/images/event_group.png"  width="50%">
+  <img src="docs/images/event_group.png"  width="60%">
 </p>
 
 각 이벤트는 페이지 반응과 전환 성과를 기준으로 사분면에 배치됩니다.
